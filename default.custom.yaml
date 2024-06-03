@@ -1,0 +1,18 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Apr 17 17:03:16 2024"
+  rime_version: 1.11.0
+patch:
+  key_binder/bindings/+:
+    - {accept: Control+Shift+M, select: moran, when: always}
+    - {accept: Control+Shift+J, select: japanese, when: always}
+    # Home 排选字
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+  menu/page_size: 3
+  menu/alternative_select_labels: [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+  schema_list:
+    - {schema: moran}
+    - {schema: japanese}
