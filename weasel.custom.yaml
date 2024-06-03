@@ -6,7 +6,7 @@ customization:
   rime_version: 1.11.0
 patch:
   style/color_scheme: salt
-  style/font_face: "Segoe UI Emoji, LXGW WenKai GB"
+  style/font_face: "LXGW WenKai GB"
   style/font_point: 14
   style/label_font_face: "LXGW WenKai GB"
   style/label_font_point: 14
