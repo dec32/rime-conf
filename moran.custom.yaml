@@ -1,5 +1,6 @@
 patch:
   # 开启簡快碼提示
+  moran/quick_code_indicator: "⚡"
   moran/enable_quick_code_hint: true
   
   # 添加用于在用字標準間切换的三態开关
