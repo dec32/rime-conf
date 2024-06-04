@@ -1,9 +1,13 @@
+# 可使用
+# __patch: moran.custom:/patch?
+# 手動引入此補丁
+
 patch:
   # 开启簡快碼提示
-  moran/quick_code_indicator: "⚡"
+  moran/quick_code_indicator: "📌"
   moran/enable_quick_code_hint: true
   
-  # 添加用于在用字標準間切换的三態开关
+  # 完全定义开关列表，添加用于在字形標準間切换的三態开关
   switches: 
     - name: ascii_mode
       states: [ 中文, 西文 ]
@@ -12,26 +16,21 @@ patch:
       reset: 1
     - name: extended_charset
       states: [ 通用, 增廣 ]
-    # 隠藏部分开关的状態
-    - name: full_shape
-    - name: ascii_punct
-    - name: chaifen
+    # Emoji 常开，默认简化器常关，拆字提示按需开启
     - name: emoji
       reset: 1
+    - name: simplification
+      reset: 0
+    - name: chaifen
+    # 用不到的开关，放在這裡备用
+    - name: full_shape
+    - name: ascii_punct
     - name: inflexible
     - name: unicode_comment
 
-  # 移除默訒的簡化逻輯，用两个互斥的簡化器来控制
-  engine/filters:
-    - lua_filter@*moran_charset_filter
-    - lua_filter@*moran_reorder_filter
-    - lua_filter@*moran_aux_hint
-    - lua_filter@*moran_quick_code_hint
-    - simplifier@chaifen
-    - simplifier@emoji
-    - simplifier@std_simp
-    - simplifier@std_priv
-    - uniquifier
+  # 在 unifier 前增加两个自定义简化器
+  engine/filters/@before last: simplifier@std_simp
+  engine/filters/@before last: simplifier@std_priv
 
   # 自定簡化器
   std_priv:
@@ -43,13 +42,8 @@ patch:
     opencc_config: moran_t2s.json
     option_name: std_simp
 
-  # 关閉部分反查功能
-  recognizer:
-    import_preset: default
-    patterns:
-      reverse_stroke: "^obh[A-Za-z]*$"
-      reverse_zrlf: "^olf[A-Za-z]*$"
-      punct: '^/([0-9]0?|[A-Za-z]+)$'
+  # 停止使用反引号引导虎码反查
+  recognizer/patterns/reverse_tiger: "^ohu[A-Za-z]*$" 
 
   # 优化拆字提示的格式
   chaifen/comment_format:
@@ -80,6 +74,7 @@ patch:
     # 字形遍歷
     - {accept: Control+Shift+O, toggle: std_opencc, when: always}
 
+  # 使用鹤音
   algebra/user_sentence_top/__append/+:
     # 音码转成大写
     - xform/^([a-z]+);/\U$1;/   
