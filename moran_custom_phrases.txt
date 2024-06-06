@@ -11,10 +11,6 @@
 #
 # 每行格式：文字 <tab> 編碼 <tab> 權重（權重越高，順序越靠前）
 
-# 音樂
-♯	sharp
-♭	flat
-
 # 調號，可能渲染不出來，但他們是真實存在的
 ̄	macron	# ◌̄
 ́	acute	# ◌́
@@ -23,21 +19,7 @@
 ̈	dots	# ◌̈
 ̃	nasal	# ◌̃
 
-# IDS
-⿰	/lr
-⿲	/ll
-⿱	/ud
-⿳	/uu
-⿸	/rd
-⿺	/ru
-⿹	/ld
-⿽	/lu
-⿵	/od
-⿷	/or
-⿼	/ol
-⿴	/oc
-⿻	/xx
-⿾	/mi
-⿿	/ro
-㇯	/su
-
+# 標點符號
+、	dy	#頓
+・	dm	#点
+——	po	#破

@@ -4,8 +4,8 @@
 
 patch:
   # 开启簡快碼提示
-  moran/quick_code_indicator: "📌"
-  moran/enable_quick_code_hint: true
+  moran/enable_quick_code_hint: false
+  moran/quick_code_indicator: "⚡"
   
   # 完全定义开关列表，添加用于在字形標準間切换的三態开关
   switches: 
@@ -16,6 +16,8 @@ patch:
       reset: 1
     - name: extended_charset
       states: [ 通用, 增廣 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
     # Emoji 常开，默认简化器常关，拆字提示按需开启
     - name: emoji
       reset: 1
@@ -24,13 +26,24 @@ patch:
     - name: chaifen
     # 用不到的开关，放在這裡备用
     - name: full_shape
-    - name: ascii_punct
     - name: inflexible
     - name: unicode_comment
 
-  # 在 unifier 前增加两个自定义简化器
-  engine/filters/@before last: simplifier@std_simp
-  engine/filters/@before last: simplifier@std_priv
+
+#  在 uniquifier 前增加两个自定义简化器
+#  engine/filters/@before last: simplifier@std_simp
+#  engine/filters/@before last: simplifier@std_priv
+
+  engine/filters:
+    - lua_filter@*moran_charset_filter
+    - lua_filter@*moran_reorder_filter
+    - lua_filter@*moran_aux_hint
+    - lua_filter@*moran_quick_code_hint
+    - simplifier@chaifen
+    - simplifier@emoji
+    - simplifier@std_simp
+    - simplifier@std_priv
+    - uniquifier
 
   # 自定簡化器
   std_priv:
@@ -44,6 +57,9 @@ patch:
 
   # 停止使用反引号引导虎码反查
   recognizer/patterns/reverse_tiger: "^ohu[A-Za-z]*$" 
+  
+  # 不使用分号引导標点
+  speller/alphabet: abcdefghijklmnopqrstuvwxyz/
 
   # 优化拆字提示的格式
   chaifen/comment_format:
@@ -64,15 +80,15 @@ patch:
     - { when: has_menu, accept: "Control+e", toggle: emoji }
     - { when: composing, accept: "Control+x", toggle: extended_charset }
     # 字形快速切換
-    - {accept: Control+Shift+T, set_option: std_opencc, when: always}
-    - {accept: Control+Shift+P, set_option: std_priv, when: always}
-    - {accept: Control+Shift+S, set_option: std_simp, when: always}
+    - { accept: Control+Shift+T, set_option: std_opencc, when: always }
+    - { accept: Control+Shift+P, set_option: std_priv, when: always }
+    - { accept: Control+Shift+S, set_option: std_simp, when: always }
     # 字形快速切换（候選窗）
-    - {accept: Control+t, set_option: std_opencc, when: has_menu}
-    - {accept: Control+p, set_option: std_priv, when: has_menu}
-    - {accept: Control+s, set_option: std_simp, when: has_menu}
+    - { accept: Control+t, set_option: std_opencc, when: has_menu }
+    - { accept: Control+p, set_option: std_priv, when: has_menu }
+    - { accept: Control+s, set_option: std_simp, when: has_menu }
     # 字形遍歷
-    - {accept: Control+Shift+O, toggle: std_opencc, when: always}
+    - { accept: Control+Shift+O, toggle: std_opencc, when: always }
 
   # 使用鹤音
   algebra/user_sentence_top/__append/+:
