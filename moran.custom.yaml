@@ -3,9 +3,16 @@
 # 手動引入此補丁
 
 patch:
-  # 开启簡快碼提示
-  moran/enable_quick_code_hint: false
+  # 显示提示符
   moran/quick_code_indicator: "⚡"
+  # 显示簡快码
+  moran/enable_quick_code_hint: true
+  
+  # 不为单字显示提示符
+  moran/quick_code_indicator_skip_chars: true
+  # 不为单字显示簡快码
+  moran/quick_code_hint_skip_chars: true
+
   
   # 完全定义开关列表，添加用于在字形標準間切换的三態开关
   switches: 

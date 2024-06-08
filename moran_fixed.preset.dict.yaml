@@ -1,10 +1,10 @@
 ##### 一字一簡 #####
 啊	a
 不	b
-從	c
+才	c
 的	d
 得	d
-恩	e
+嗯	e
 發	f
 個	g
 和	h
@@ -25,19 +25,27 @@
 中	v
 我	w
 下	x
+又	y
 有	y
 在	z
 
 ##### 一字二簡 #####
 的	de
 得	de
+嗯	en
+群	qy
 他	ta
 它	ta
 在	zd
 再	zd
+字	zi
+
+##### 一字三簡 #####
+有	yzo
+友	yzy
+右	yzk
 
 ##### 二字二簡 #####
-啊啊	aa
 啊對	ad
 按鍵	aj
 安排	ap
@@ -95,7 +103,6 @@
 發送	fs
 發帖	ft
 反正	fv
-範圍	fw
 發現	fx
 反應	fy
 過程	gi
@@ -131,7 +138,7 @@
 開通	kt
 科學	kx
 浪費	lf
-目的	md
+買	md
 默認	mr
 貌似	ms
 明天	mt
@@ -165,7 +172,6 @@
 所謂	sw
 思想	sx
 所以	sy
-私自	sz
 突發	tf
 太難	tn
 天氣	tq
@@ -186,6 +192,7 @@
 臥槽	wc
 萬惡	we
 完成	wi
+爲了	wl
 我們	wm
 萬能	wn
 網盤	wp
@@ -231,6 +238,7 @@ B站	bvj
 公子	gsz
 化爲	hxw
 重置	isv
+媽的	mad
 哪兒	nae
 哪個	nag
 哪裏	nal
@@ -951,7 +959,6 @@ B站	bvj
 明白了	mbl
 沒保障	mbv
 沒兵線	mbx
-沒得比	mdb
 買得到	mdd
 馬大哈	mdh
 馬德里	mdl
@@ -1012,6 +1019,7 @@ B站	bvj
 買這些	mvx
 門外漢	mwh
 沒忘記	mwj
+沒完了	mwl
 沒問題	mwt
 沒學會	mxh
 沒懸念	mxn
@@ -1743,3 +1751,6 @@ B站	bvj
 坐在那	zzn
 自尊心	zzx
 再怎樣	zzy
+
+##### 四字四簡 #####
+怎么這樣	zmvy

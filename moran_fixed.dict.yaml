@@ -23,10 +23,10 @@ encoder:
 ...
 啊	a
 不	b
-從	c
+才	c
 的	d
 得	d
-恩	e
+嗯	e
 發	f
 個	g
 和	h
@@ -47,9 +47,10 @@ encoder:
 中	v
 我	w
 下	x
+又	y
 有	y
 在	z
-啊啊	aa
+啊	aa
 啊對	ad
 昂	ah
 愛	ai
@@ -140,7 +141,7 @@ encoder:
 誒	ei
 而況	ek
 而來	el
-恩	en
+嗯	en
 惡評	ep
 而且	eq
 而	er
@@ -173,7 +174,7 @@ encoder:
 發帖	ft
 副	fu
 反正	fv
-範圍	fw
+非	fw
 發現	fx
 反應	fy
 否	fz
@@ -325,7 +326,7 @@ encoder:
 嗎	ma
 民	mb
 毛	mc
-目的	md
+買	md
 麼	me
 們	mf
 夢	mg
@@ -416,7 +417,7 @@ encoder:
 卻	qt
 去	qu
 卡	qx
-裙	qy
+群	qy
 熱愛	ra
 繞	rc
 認得	rd
@@ -460,7 +461,7 @@ encoder:
 所謂	sw
 思想	sx
 所以	sy
-私自	sz
+搜	sz
 他	ta
 它	ta
 套	tc
@@ -543,6 +544,7 @@ encoder:
 網	wh
 完成	wi
 玩	wj
+爲了	wl
 我們	wm
 萬能	wn
 我	wo
@@ -601,8 +603,7 @@ encoder:
 因爲	yw
 一下	yx
 暈	yy
-有	yz
-再	z 
+又	yz
 咋	za
 早	zc
 在	zd
@@ -611,7 +612,7 @@ encoder:
 怎	zf
 曾	zg
 髒	zh
-子	zi
+字	zi
 咱	zj
 怎麼	zm
 怎能	zn
@@ -1400,7 +1401,7 @@ B站	bvj
 的話	deh
 地	det
 開發者	dev
-得	dex
+德	dex
 襶	dey
 豆腐塊	dfk
 答覆你	dfn
@@ -4039,6 +4040,7 @@ B站	bvj
 露	lzy
 馬	maa
 痲	mab
+媽的	mad
 抹	maf
 麻	mag
 蟆	mai
@@ -4086,7 +4088,7 @@ B站	bvj
 瑁	mcw
 懋	mcx
 袤	mcy
-沒得比	mdb
+賣	mdb
 薶	mdc
 買得到	mdd
 馬大哈	mdh
@@ -4338,6 +4340,7 @@ B站	bvj
 門外漢	mwh
 蝐	mwi
 沒忘記	mwj
+沒完了	mwl
 梅	mwm
 妹	mwn
 眉	mwo
@@ -5191,7 +5194,7 @@ B站	bvj
 前一天	qyt
 峮	qyu
 竊以爲	qyw
-群	qyy
+裙	qyy
 起源自	qyz
 全自動	qzd
 去做了	qzl
@@ -7546,12 +7549,12 @@ B站	bvj
 園子裏	yzl
 柚	yzm
 冘	yzn
-眑	yzo
+有	yzo
 釉	yzp
 猶	yzq
 優	yzr
 卣	yzs
-友	yzu
+有	yzu
 又	yzv
 憂	yzw
 憂	yzx
@@ -7652,7 +7655,7 @@ B站	bvj
 再回頭	zht
 咋回事	zhu
 最好笑	zhx
-字	zib
+資	zib
 茲	zic
 滋	zid
 鄑	zie
@@ -7835,6 +7838,7 @@ B站	bvj
 奏	zzt
 自尊心	zzx
 再怎樣	zzy
+啊啊啊啊 aaaa
 阿爸	aaba
 阿伯	aabo
 傲岸不羣	aabq
@@ -86809,8 +86813,7 @@ B站	bvj
 賊眉鼠眼	zmuy
 怎麼着	zmvc
 怎麼知道	zmvd
-自謀職業	zmvy
-怎麼這樣	zmvy
+怎么這樣	zmvy
 怎麼玩	zmwj
 怎麼行	zmxk
 怎麼寫	zmxp
