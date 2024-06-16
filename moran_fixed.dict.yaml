@@ -44,11 +44,11 @@ encoder:
 他	t
 它	t
 是	u
-中	v
+這	v
 我	w
 下	x
-又	y
 有	y
+又	y
 在	z
 啊	aa
 啊對	ad
@@ -108,7 +108,7 @@ encoder:
 存在	cz
 打	da
 到	dc
-到底	dd
+带	dd
 的	de
 得	de
 对付	df
@@ -305,7 +305,7 @@ encoder:
 浪費	lf
 冷	lg
 狼	lh
-里	li
+裏	li
 藍	lj
 另	lk
 兩	ll
@@ -583,10 +583,10 @@ encoder:
 呀	ya
 因	yb
 要	yc
-有點	yd
+一點	yd
 也	ye
 一分	yf
-應該	yg
+一個	yg
 樣	yh
 一	yi
 眼	yj
@@ -599,10 +599,12 @@ encoder:
 用	ys
 月	yt
 與	yu
-一直	yv
+一種	yv
 因爲	yw
+以爲	yw
 一下	yx
 暈	yy
+有	yz
 又	yz
 咋	za
 早	zc
@@ -3114,7 +3116,7 @@ B站	bvj
 間	jmo
 牋	jmp
 兼	jmq
-掘墓人	jmr
+件	jmr
 緘	jms
 堅	jmt
 峴	jmu
@@ -3944,7 +3946,7 @@ B站	bvj
 蘆	luc
 滷	lud
 陸	lue
-擄	luf
+擼	luf
 鹿	lug
 盧	luh
 輅	lui
@@ -4040,7 +4042,7 @@ B站	bvj
 露	lzy
 馬	maa
 痲	mab
-媽的	mad
+溤	mad
 抹	maf
 麻	mag
 蟆	mai
@@ -6795,7 +6797,7 @@ B站	bvj
 委	wwh
 蝟	wwi
 帷	wwj
-玩玩看	wwk
+味	wwk
 闈	wwm
 威	wwn
 胃	wwo
@@ -6912,7 +6914,7 @@ B站	bvj
 鄉	xle
 缿	xlf
 項	xlg
-小狼毫	xlh
+香	xlh
 蟓	xli
 鑲	xlj
 向量	xll
@@ -6925,8 +6927,8 @@ B站	bvj
 象	xlu
 箱	xlv
 享	xlw
-心理學	xlx
-敘利亞	xly
+想	xlx
+項	xly
 享	xlz
 賢	xmb
 莧	xmc
@@ -7321,7 +7323,7 @@ B站	bvj
 異	yit
 壹	yiu
 已	yiv
-一位	yiw
+亦	yiw
 意	yix
 義	yiy
 逸	yiz
@@ -7449,7 +7451,7 @@ B站	bvj
 燿	yth
 軏	yti
 鉞	ytj
-囝	ytk
+噦	ytk
 一條龍	ytl
 粵	ytm
 鸑	ytn
@@ -7509,8 +7511,6 @@ B站	bvj
 有效期	yxq
 有些人	yxr
 一小時	yxu
-以下	yxx
-一些	yxx
 一下子	yxz
 贇	yyb
 芸	yyc
@@ -7535,7 +7535,7 @@ B站	bvj
 慍	yyx
 雲	yyy
 運	yyz
-又	yza
+由	yza
 釉	yzb
 蕕	yzc
 油	yzd
@@ -45737,7 +45737,6 @@ B站	bvj
 罵道	madc
 馬道	madc
 麻袋	madd
-媽的	made
 馬燈	madg
 馬店	madm
 碼垛	mado
@@ -81681,7 +81680,7 @@ B站	bvj
 毉	yiwu
 遺傳物質	yiwv
 運籌帷幄之中	yiwv
-以爲	yiww
+一位	yiww
 意味	yiww
 運籌帷幄	yiww
 斁	yiwx

@@ -3,14 +3,11 @@
 # 手動引入此補丁
 
 patch:
-  # 显示提示符
-  moran/quick_code_indicator: "⚡"
-  # 显示簡快码
-  moran/enable_quick_code_hint: true
+  # 簡快碼提示符
+  moran/quick_code_indicator: "◉"
   
-  # 不为单字显示提示符
-  moran/quick_code_indicator_skip_chars: true
-  # 不为单字显示簡快码
+  # 簡快碼拼写提示
+  moran/enable_quick_code_hint: true
   moran/quick_code_hint_skip_chars: true
 
   
