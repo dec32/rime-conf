@@ -104,7 +104,7 @@ encoder:
 催	cv
 錯誤	cw
 才行	cx
-參與	cy
+村	cy
 存在	cz
 打	da
 到	dc
@@ -128,7 +128,7 @@ encoder:
 都	du
 對	dv
 得	dw
-嗲	dx
+東西	dx
 噸	dy
 都	dz
 而不	eb
@@ -249,7 +249,7 @@ encoder:
 成爲	iw
 程序	ix
 春	iy
-創作	iz
+抽	iz
 驕傲	ja
 進	jb
 覺得	jd
@@ -308,7 +308,7 @@ encoder:
 裏	li
 藍	lj
 另	lk
-兩	ll
+倆	ll
 連	lm
 聊	ln
 咯	lo
@@ -443,7 +443,7 @@ encoder:
 肉	rz
 撒	sa
 掃	sc
-速度	sd
+塞	sd
 色	se
 森	sf
 僧	sg
@@ -531,7 +531,7 @@ encoder:
 住	vu
 追	vv
 這	vw
-這下	vx
+抓	vx
 準	vy
 周	vz
 哇	wa
@@ -794,7 +794,6 @@ encoder:
 被打死	bds
 半導體	bdt
 表達式	bdu
-不倒翁	bdw
 不動心	bdx
 不但要	bdy
 巴爾幹	beg
@@ -1669,6 +1668,7 @@ B站	bvj
 等問題	dwt
 隊伍中	dwv
 等我下	dwx
+嗲	dxk
 單相思	dxs
 定心丸	dxw
 沌	dyd
@@ -1820,7 +1820,7 @@ B站	bvj
 猦	fgq
 俸	fgr
 縫	fgs
-豐	fgu
+峯	fgu
 艂	fgv
 夆	fgw
 覂	fgx
@@ -2464,18 +2464,18 @@ B站	bvj
 隍	hle
 撗	hlf
 皝	hlg
-很厲害	hlh
+煌	hlh
 蝗	hli
-狐狸精	hlj
+凰	hlj
 喤	hlk
 回來了	hll
 騜	hlm
 晃	hlo
 偟	hlr
-行列式	hlu
+磺	hlu
 簧	hlv
 璜	hlw
-合理性	hlx
+慌	hlx
 謊	hly
 遑	hlz
 還沒動	hmd
@@ -2615,7 +2615,7 @@ B站	bvj
 樺	hxm
 好想你	hxn
 好心情	hxq
-好心人	hxr
+化	hxr
 罫	hxs
 好像是	hxu
 化爲	hxw
@@ -2635,7 +2635,7 @@ B站	bvj
 換一種	hyv
 還以爲	hyw
 惛	hyx
-黑黝黝	hyy
+魂	hyy
 齁	hzb
 郈	hze
 缿	hzf
@@ -2778,7 +2778,7 @@ B站	bvj
 常	ihx
 鯧	ihy
 尺	iia
-痄	iib
+痴	iib
 茌	iic
 池	iid
 恥	iie
@@ -3068,7 +3068,7 @@ B站	bvj
 蟼	jki
 鏡	jkj
 據可靠	jkk
-經看了	jkl
+竟	jkl
 精	jkm
 極可能	jkn
 景	jko
@@ -3079,7 +3079,7 @@ B站	bvj
 箐	jkv
 京	jkw
 徑	jkx
-就可以	jky
+警	jky
 逕	jkz
 俱樂部	jlb
 蔣	jlc
@@ -3483,7 +3483,7 @@ B站	bvj
 俇	klr
 纊	kls
 壙	klt
-快樂水	klu
+礦	klu
 筐	klv
 怳	klx
 看了眼	kly
@@ -4987,7 +4987,7 @@ B站	bvj
 綪	qks
 擎	qku
 箐	qkv
-情況下	qkx
+情	qkx
 頃	qky
 蹞	qkz
 薔	qlc
@@ -5389,7 +5389,7 @@ B站	bvj
 璅	scw
 慅	scx
 三次元	scy
-塞	sdb
+賽	sdb
 腮	sdo
 偲	sdr
 塞	sdt
@@ -5567,7 +5567,7 @@ B站	bvj
 所有值	syv
 私以爲	syw
 飧	syx
-遜	syz
+孫	syz
 瘐	szb
 蒐	szc
 漱	szd
@@ -5802,7 +5802,7 @@ B站	bvj
 跎	toz
 餮	tpd
 蛈	tpi
-帖	tpj
+鐡	tpj
 呫	tpk
 驖	tpm
 餮	tpu
@@ -6311,7 +6311,7 @@ B站	bvj
 乙	vev
 瓋	vew
 這些	vex
-褶	vey
+着	vey
 遮	vez
 支付寶	vfb
 蓁	vfc
@@ -6643,7 +6643,7 @@ B站	bvj
 我不信	wbx
 我不用	wby
 歪脖子	wbz
-五點半	wdb
+歪	wdb
 無底洞	wdd
 我掉了	wdl
 僞代碼	wdm
@@ -7606,7 +7606,7 @@ B站	bvj
 仔	zdr
 縡	zds
 死對頭	zdt
-這倒是	zdu
+崽	zdu
 在逗我	zdw
 總擔心	zdx
 自定義	zdy
@@ -7655,6 +7655,7 @@ B站	bvj
 再回頭	zht
 咋回事	zhu
 最好笑	zhx
+子	zia
 資	zib
 茲	zic
 滋	zid
@@ -18946,6 +18947,7 @@ B站	bvj
 大相徑庭	dxjt
 電信局	dxju
 大限將至	dxjv
+嗲	dxkd
 大型客車	dxki
 掉下來	dxld
 倒吸了一口涼氣	dxlq
@@ -59976,6 +59978,7 @@ B站	bvj
 夙夜在公	syzg
 孫子	syzi
 撒丫子	syzi
+遜	syzs
 孫子兵法	szbf
 三災八難	szbn
 搜捕	szbu
@@ -68636,6 +68639,7 @@ B站	bvj
 裚	veyv
 乙	veyy
 鮿	veyy
+褶	veyx
 摺子	vezi
 褶子	vezi
 這座	vezo

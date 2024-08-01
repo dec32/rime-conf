@@ -10,6 +10,8 @@ patch:
   moran/enable_quick_code_hint: true
   moran/quick_code_hint_skip_chars: true
 
+  # 四码单字
+  moran/show_chars_anyway: true
   
   # 完全定义开关列表，添加用于在字形標準間切换的三態开关
   switches: 
@@ -17,7 +19,7 @@ patch:
       states: [ 中文, 西文 ]
     - options: [ std_opencc, std_priv, std_simp ]
       states: [ 正, 歪, 简 ]
-      reset: 1
+      reset: 2
     - name: extended_charset
       states: [ 通用, 增廣 ]
     - name: ascii_punct
@@ -29,15 +31,12 @@ patch:
       reset: 0
     - name: chaifen
     # 用不到的开关，放在這裡备用
-    - name: full_shape
     - name: inflexible
+    - name: full_shape
     - name: unicode_comment
 
 
-#  在 uniquifier 前增加两个自定义简化器
-#  engine/filters/@before last: simplifier@std_simp
-#  engine/filters/@before last: simplifier@std_priv
-
+  # 在 uniquifier 前增加两个自定义简化器
   engine/filters:
     - lua_filter@*moran_charset_filter
     - lua_filter@*moran_reorder_filter
@@ -72,7 +71,8 @@ patch:
     # 用 | 来分割多组拆分，而非用多组括号
     - xform/〕〔/｜/
     # 关闭编码提示
-    # - xform/[a-z]+//    
+    # - xform/[a-z]+//   
+  
 
   # 自定義快捷鍵
   key_binder/bindings:
@@ -81,6 +81,7 @@ patch:
     - { when: composing, accept: "Tab", send: "Control+Right" }
     # 功能开关
     - { when: has_menu, accept: "Control+i", toggle: chaifen }
+    - { when: has_menu, accept: "Control+u", toggle: unicode_comment }
     - { when: has_menu, accept: "Control+e", toggle: emoji }
     - { when: composing, accept: "Control+x", toggle: extended_charset }
     # 字形快速切換
@@ -130,6 +131,7 @@ patch:
     - xform/^SP/sy/
     - xform/^TP/ty/
     - xform/^XP/xy/
+    - xform/^YL/yd/
     - xform/^YP/yy/
     - xform/^VP/vy/
     - xform/^ZP/zy/
@@ -207,6 +209,7 @@ patch:
     - xform/^YB/yz/
     - xform/^VB/vz/
     - xform/^ZB/zz/
+    - xform/^DW/dx/
     - xform/^JW/jx/
     - xform/^LW/lx/
     - xform/^NW/nx/

@@ -7,12 +7,15 @@ customization:
 patch:
   style/color_scheme: salt
   style/font_face: "LXGW WenKai GB"
-  style/font_point: 14
   style/label_font_face: "LXGW WenKai GB"
-  style/label_font_point: 14
   style/comment_font_face: "LXGW WenKai GB"
+  # style/font_face: "仓耳今楷02"
+  # style/label_font_face: "仓耳今楷02"
+  # style/comment_font_face: "仓耳今楷02"
+  style/font_point: 14
+  style/label_font_point: 10
   style/comment_font_point: 10
-  style/label_format: "%s."
+  style/label_format: "%s "
   style/horizontal: false
   style/inline_preedit: true
   style/layout:
@@ -33,7 +36,7 @@ patch:
     shadow_offset_y: 4
     shadow_radius: 0
     spacing: 10
-  
+
   preset_color_schemes/salt:
     author: Dec
     name: 塩／Salt
@@ -47,3 +50,33 @@ patch:
     hilited_text_color: 0x1A1A1A
     label_color: 0xAAAAAA
     text_color: 0x1A1A1A
+
+  preset_color_schemes/shadow:
+    author: Dec
+    name: 影／Shadow
+    back_color: 0x303030
+    border_color: 0x111111
+    candidate_text_color: 0xE5E5E5
+    hilited_back_color: 0x202020
+    hilited_candidate_back_color: 0x0F0F0F
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_label_color: 0x999999
+    hilited_text_color: 0xE5E5E5
+    label_color: 0x999999
+    text_color: 0xE5E5E5
+    comment_color: 0x999999
+
+  preset_color_schemes/stone:
+    author: Dec
+    name: 四通／Stone
+    back_color: 0xEFEFEF
+    border_color: 0xC5C5C5
+    candidate_text_color: 0x750011
+    hilited_back_color: 0xEFEFEF
+    hilited_candidate_text_color: 0x0000D2
+    hilited_candidate_back_color: 0xC5C5C5
+    hilited_text_color: 0x750011
+    hilited_label_color: 0x026501
+    text_color: 0x750011
+    label_color: 0x026501
+    comment_color: 0x777777
