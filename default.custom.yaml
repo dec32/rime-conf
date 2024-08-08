@@ -8,6 +8,7 @@ patch:
   key_binder/bindings/+:
     - {accept: Control+Shift+M, select: moran, when: always}
     - {accept: Control+Shift+F, select: moran_fixed, when: always}
+    - {accept: Control+Shift+H, select: tiger, when: always}
     - {accept: Control+Shift+J, select: japanese, when: always}
     - {accept: Control+period, toggle: ascii_punct, when: always}
     # Home 排选字
@@ -19,4 +20,5 @@ patch:
   schema_list:
     - schema: moran
     - schema: moran_fixed
+    - schema: tiger
     - schema: japanese
