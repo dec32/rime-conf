@@ -5,7 +5,7 @@ customization:
   modified_time: "Tue Apr 16 19:20:29 2024"
   rime_version: 1.11.0
 patch:
-  style/color_scheme: salt
+  style/color_scheme: everforest
   style/font_face: "LXGW WenKai GB"
   style/label_font_face: "LXGW WenKai GB"
   style/comment_font_face: "LXGW WenKai GB"
@@ -13,9 +13,10 @@ patch:
   # style/label_font_face: "仓耳今楷02"
   # style/comment_font_face: "仓耳今楷02"
   style/font_point: 14
-  style/label_font_point: 10
+  style/label_font_point: 14
+  # style/label_font_point: 10
   style/comment_font_point: 10
-  style/label_format: "%s "
+  # style/label_format: "%s "
   style/horizontal: false
   style/inline_preedit: true
   style/layout:
@@ -66,17 +67,40 @@ patch:
     text_color: 0xE5E5E5
     comment_color: 0x999999
 
+  
+  # blue:   0xC5943A
+  # green:  0x01A18D
+  # orange: 0x2E82F5
+  # red:    0x5255F8
+  # grey:   0x9F9F9F
+  # gray:   0x726A5C
+  preset_color_schemes/everforest:
+    author: Dec
+    name: 常林／Everforest
+    border_color: 0xD8EBF0         # 边框
+    back_color: 0xE3F6FD           # 背景
+    text_color: 0x726A5C           # 内嵌
+    label_color: 0x2E82F5          # 序号
+    comment_text_color: 0x01A18D   # 注释
+    candidate_text_color: 0x726A5C # 候选
+    hilited_back_color: 0xD8EBF0
+    hilited_text_color: 0x726A5C
+    hilited_label_color: 0x2E82F5
+    hilited_comment_text_color: 0x01A18D
+    hilited_candidate_text_color: 0x726A5C
+
+
   preset_color_schemes/stone:
     author: Dec
     name: 四通／Stone
     back_color: 0xEFEFEF
     border_color: 0xC5C5C5
-    candidate_text_color: 0x750011
+    candidate_text_color: 0x01a18d
     hilited_back_color: 0xEFEFEF
-    hilited_candidate_text_color: 0x0000D2
+    hilited_candidate_text_color: 0x01a18d
     hilited_candidate_back_color: 0xC5C5C5
-    hilited_text_color: 0x750011
+    hilited_text_color: 0x01a18d
     hilited_label_color: 0x026501
-    text_color: 0x750011
+    text_color: 0x01a18d
     label_color: 0x026501
     comment_color: 0x777777

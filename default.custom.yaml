@@ -8,17 +8,16 @@ patch:
   key_binder/bindings/+:
     - {accept: Control+Shift+M, select: moran, when: always}
     - {accept: Control+Shift+F, select: moran_fixed, when: always}
-    - {accept: Control+Shift+H, select: tiger, when: always}
+    - {accept: Control+Shift+H, select: tigress, when: always}
     - {accept: Control+Shift+J, select: japanese, when: always}
     - {accept: Control+period, toggle: ascii_punct, when: always}
     # Home 排选字
     - {accept: semicolon, send: 2, when: has_menu}
     # - {accept: apostrophe, send: 3, when: has_menu}
   menu/page_size: 4
-  menu/alternative_select_labels: [〡,〢,〣,〤,〥,〦,〧,〨,〩]
+  # menu/alternative_select_labels: [〡,〢,〣,〤,〥,〦,〧,〨,〩]
   # menu/alternative_select_labels: [1, 2, 3, 4, 5, 6, 7, 8, 9]
   schema_list:
     - schema: moran
-    - schema: moran_fixed
-    - schema: tiger
+    - schema: tigress
     - schema: japanese
